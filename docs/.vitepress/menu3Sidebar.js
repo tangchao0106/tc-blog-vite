@@ -5,6 +5,6 @@ export default [
     text: "ANDROID",
     collapsible: true,
     collapsed: false,
-    items: [{ text: "a", link: `${commonPath}/a.md` }],
+    items: [{ text: "热更新", link: `${commonPath}/a.md` }],
   },
 ];

@@ -11,7 +11,7 @@ export default [
         link: `${commonPath}/在 Vue 中为什么不推荐用 index 做 key.md`,
       },
       { text: "虚拟 DOM", link: `${commonPath}/虚拟 DOM.md` },
-      { text: "虚拟 DOM", link: `${commonPath}/nextTick 实现原理.md` },
+      { text: "nextTick 实现原理", link: `${commonPath}/nextTick 实现原理.md` },
       {
         text: "vue2源码生命周期合并策略梳理",
         link: `${commonPath}/vue2源码生命周期合并策略梳理.md`,
@@ -35,7 +35,6 @@ export default [
         text: "关于输入框非空的判断",
         link: `${commonPath}/关于输入框非空的判断.md`,
       },
-      { text: "虚拟 DOM", link: `${commonPath}/nextTick 实现原理.md` },
       {
         text: "babel为什么需要bable-pollyfill",
         link: `${commonPath}/babel为什么需要bable-pollyfill.md`,
