@@ -1,1 +1,0 @@
-import{_ as s,o as t,c as a,a as n}from"./app.c2a26d06.js";const h=JSON.parse('{"title":"GitHooks","description":"","frontmatter":{},"headers":[],"relativePath":"menu1/GitHooks.md"}'),e={name:"menu1/GitHooks.md"},o=n("",9),i=[o];function l(p,c,r,u,d,m){return t(),a("div",null,i)}const q=s(e,[["render",l]]);export{h as __pageData,q as default};
