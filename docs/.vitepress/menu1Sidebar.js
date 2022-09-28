@@ -39,6 +39,10 @@ export default [
         text: "babel为什么需要bable-pollyfill",
         link: `${commonPath}/babel为什么需要bable-pollyfill.md`,
       },
+      {
+        text: "GitHooks使用",
+        link: `${commonPath}/GitHooks.md`,
+      },
     ],
   },
 ];
