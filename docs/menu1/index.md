@@ -42,6 +42,7 @@ const members = [
   {
     avatar: 'https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fgw.alicdn.com%2Fbao%2Fuploaded%2Fi3%2FTB1woAsGVXXXXblXFXXXXXXXXXX_%21%210-item_pic.jpg_460x460xz.jpg&refer=http%3A%2F%2Fgw.alicdn.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1666702410&t=ca7b46bb7b0f26d7edca7fcc668f243f',
     name: '杨幂',
+    title: '演员',
 
     links: [
       { icon: 'github', link: 'https://github.com/tangchao0106' },

@@ -23,6 +23,21 @@ export default [
     ],
   },
   {
+    text: "React系列",
+    collapsible: true,
+    collapsed: false,
+    items: [
+      // {
+      //   text: "JSX规则",
+      //   link: `${commonPath}/jsx规则.md`,
+      // },
+      {
+        text: "react组件",
+        link: `${commonPath}/react组件.md`,
+      },
+    ],
+  },
+  {
     text: "JS系列",
     collapsible: true,
     collapsed: false,

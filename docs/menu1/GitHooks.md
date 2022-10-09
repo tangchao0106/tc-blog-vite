@@ -3,6 +3,11 @@
 
 "prepare": "husky install",
 安装husky=》生成.husky文件=》pre-commit中执行npm test=》读取package.json=>"test": "node scripts/test.js"
+- 也可以指定自己的文件 npx husky add .husky/commit-msg 'node [dir]/filename.js' # 指定目录文件
+
+[husky](https://juejin.cn/post/7038143752036155428#heading-4)
+npx --no-install commitlint --edit "$1"
+
 
 # 2 vue-cli 中使用gitHooks
 [vue-cli 使用githooks](https://juejin.cn/post/6844904063969001480)
