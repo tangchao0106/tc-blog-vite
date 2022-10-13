@@ -17,6 +17,10 @@ export default [
         link: `${commonPath}/vue2源码生命周期合并策略梳理.md`,
       },
       {
+        text: "VUE3初始化流程",
+        link: `${commonPath}/VUE3初始化流程.md`,
+      },
+      {
         text: "视频笔记",
         link: `${commonPath}/视频笔记.md`,
       },

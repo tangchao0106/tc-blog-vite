@@ -31,3 +31,4 @@
 		//2.渲染组件到页面
 		ReactDOM.render(<MyComponent/>,document.getElementById('test'))
 ```
+### 区别  class 定义的组件中有 this，state，生命周期的钩子，而 function 声明的组件只有 props；
