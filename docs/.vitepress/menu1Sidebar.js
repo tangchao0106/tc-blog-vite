@@ -39,6 +39,10 @@ export default [
         text: "react组件",
         link: `${commonPath}/react组件.md`,
       },
+      {
+        text: "react笔记",
+        link: `${commonPath}/react笔记.md`,
+      },
     ],
   },
   {
