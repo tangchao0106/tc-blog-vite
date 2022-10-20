@@ -51,6 +51,10 @@ export default [
     collapsed: false,
     items: [
       {
+        text: "原型链笔记",
+        link: `${commonPath}/原型链笔记.md`,
+      },
+      {
         text: "call apply bind 笔记",
         link: `${commonPath}/call apply bind 笔记.md`,
       },

@@ -71,3 +71,5 @@ cors 数据从服务端回来时，增加了响应头。跳过校验
 7、 nginx 代理跨域
 8、 nodejs 中间件代理跨域
 9、 WebSocket 协议跨域
+
+### axios

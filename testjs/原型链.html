@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function new_instance_of(leftVaule, rightVaule) {
+        let rightProto = rightVaule.prototype; // 取右表达式的 prototype 值
+        leftVaule = leftVaule.__proto__; // 取左表达式的__proto__值
+        while (true) {
+          //最顶层的object的__proto__是null
+          if (leftVaule === null) {
+            return false;
+          }
+          if (leftVaule === rightProto) {
+            return true;
+          }
+          // 当原型对象不相同时, 沿着原型链继续向上查找
+          leftVaule = leftVaule.__proto__;
+        }
+      }
+
+      function myNew(Con, ...args) {
+        //1创建一个空对象
+        let obj = {};
+        //2将这个空对象的__proto__指向构造函数的原型
+        Object.setPrototypeOf(obj, Con.prototype);
+        //3改变this指向，讲空对象作为构造函数的上下文
+        var result = Con.apply(obj, args);
+        //4对构造函数有返回值的处理判断
+        // 当 构造函数有返回值时 则需要做判断再返回对应的值，是 对象类型则返回该对象，是 原始类型则返回第一步创建的空对象。
+        return result instanceof Object ? result : obj;
+      }
+    </script>
+  </body>
+</html>
