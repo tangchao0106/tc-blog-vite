@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button id="btn"></button>
+    <script type="text/javascript">
+      const btn = document.getElementById("btn");
+      const scipteNode = document.createElement("script");
+      scipteNode.src = "http://localhost:8080/test?callback=aaa";
+      document.body.appendChild(scipteNode);
+
+      window.aaa = (a) => {
+        console.log("服务端返回后触发aaa函数");
+      };
+    </script>
+  </body>
+</html>
