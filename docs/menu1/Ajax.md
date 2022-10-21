@@ -73,3 +73,8 @@ cors 数据从服务端回来时，增加了响应头。跳过校验
 9、 WebSocket 协议跨域
 
 ### axios
+
+get 请求 query 参数 简写和配置项 parms 只有/15/XX/XX
+post 请求 body 参数 可以有 query 参数和 params 参数
+
+### promise

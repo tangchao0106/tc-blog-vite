@@ -35,6 +35,23 @@
         // 当 构造函数有返回值时 则需要做判断再返回对应的值，是 对象类型则返回该对象，是 原始类型则返回第一步创建的空对象。
         return result instanceof Object ? result : obj;
       }
+
+      function Foo2() {
+        this.name = "aaa";
+        return 111;
+      }
+      console.log(new Foo2()); //这个返回值是基本类型，被忽略不影响结果
+
+      function Fun() {
+        // this.run = a;//2
+      }
+      // Fun.prototype.run = b;//4
+      var f1 = new Fun();
+      // f1.run = c; //1
+      // f1.__proto__.run = d;//3
+      // Object.prototype.run = e;//5
+      Function.prototype.run = f; //不会找
+      console.log(f1.run);
     </script>
   </body>
 </html>
