@@ -52,3 +52,27 @@ call(),是为了改变 Object.prototype.toString 这个函数都指向。让 Obj
 因为有原型链，找到顶层的原型对象，再去 call 改变 this 指向
 
 [参考连接](https://juejin.cn/post/7116114617834668062)
+
+Vue 源码做类型检测时，也很喜欢 typeof，instanceof 和 Array.isArray()。只是在做严格的类型检测时，会使用到 Object.prototype.toString。
+
+相较于 typeof、instanceof、Array.isArray，Object.prototype.toString.call 更可靠，甚至 null，它都检测出来了
+
+```
+var _toString = Object.prototype.toString;
+
+  function toRawType (value) {
+    return _toString.call(value).slice(8, -1)
+  }
+
+  /**
+   * Strict object type check. Only returns true
+   * for plain JavaScript objects.
+   */
+  function isPlainObject (obj) {
+    return _toString.call(obj) === '[object Object]'
+  }
+```
+
+## 总结
+
+基本的类型检测用 typeof，引用类型检测用 instanceof，还有专门用于检查是不是数组的 Array.isArray()
