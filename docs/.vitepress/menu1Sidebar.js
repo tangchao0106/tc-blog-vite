@@ -55,6 +55,10 @@ export default [
         link: `${commonPath}/原型链笔记.md`,
       },
       {
+        text: "为什么使用 Object.prototype.toString.call()",
+        link: `${commonPath}/为什么使用 Object.prototype.toString.call().md`,
+      },
+      {
         text: "call apply bind 笔记",
         link: `${commonPath}/call apply bind 笔记.md`,
       },
