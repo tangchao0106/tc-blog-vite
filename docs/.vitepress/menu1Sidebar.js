@@ -71,6 +71,10 @@ export default [
         link: `${commonPath}/babel为什么需要bable-pollyfill.md`,
       },
       {
+        text: "40+ Vue3 实用工具分享  技术胖整理",
+        link: `${commonPath}/40+ Vue3 实用工具分享  技术胖整理.md`,
+      },
+      {
         text: "GitHooks使用",
         link: `${commonPath}/GitHooks.md`,
       },
