@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as a}from"./app.2ac0e97c.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"menu1/Ajax.md"}'),r={name:"menu1/Ajax.md"};function n(o,s,c,p,_,m){return t(),a("div")}const f=e(r,[["render",n]]);export{i as __pageData,f as default};
