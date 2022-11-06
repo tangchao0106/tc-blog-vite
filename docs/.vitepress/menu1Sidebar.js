@@ -40,6 +40,11 @@ export default [
         link: `${commonPath}/react组件.md`,
       },
       {
+        text: "ReactRouter6快速上手",
+        link: `${commonPath}/ReactRouter6快速上手.md`,
+      },
+
+      {
         text: "react笔记",
         link: `${commonPath}/react笔记.md`,
       },
