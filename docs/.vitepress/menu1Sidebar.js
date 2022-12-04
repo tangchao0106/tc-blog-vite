@@ -83,6 +83,23 @@ export default [
         text: "GitHooks使用",
         link: `${commonPath}/GitHooks.md`,
       },
+
+      {
+        text: "开发CLI",
+        link: `${commonPath}/开发CLI.md`,
+      },
+    ],
+  },
+
+  {
+    text: "Webpack系列",
+    collapsible: true,
+    collapsed: false,
+    items: [
+      {
+        text: "尚硅谷笔记",
+        link: `${commonPath}/尚硅谷笔记.md`,
+      },
     ],
   },
 ];
