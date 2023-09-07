@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a}from"./app.865111c4.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"menu1/\u5F00\u53D1CLI.md"}'),r={name:"menu1/\u5F00\u53D1CLI.md"};function n(o,s,c,_,p,m){return t(),a("div")}const f=e(r,[["render",n]]);export{i as __pageData,f as default};
