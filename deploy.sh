@@ -1,4 +1,3 @@
-
 #!/usr/bin/env sh
 
 # abort on errors
@@ -10,19 +9,11 @@ npm run docs:build
 # navigate into the build output directory
 cd docs/.vitepress/dist
 
-# if you are deploying to a custom domain
-# echo 'www.example.com' > CNAME
-
 git init
 git add -A
 git commit -m 'deploy'
 
-# if you are deploying to https://<USERNAME>.github.io
-# git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git main
-# just a example, please change the follow line with your github account!!!
-git push -f git@github.com:tangchao0106/tc-blog-vite.git master:gh-pages
-
-# if you are deploying to https://<USERNAME>.github.io/<REPO>
-# git push -f git@github.com:<USERNAME>/<REPO>.git main:gh-pages
+# deploy to gh-pages
+git push -f git@github.com:tangchao0106/tc-blog-vite.git main:gh-pages
 
 cd -

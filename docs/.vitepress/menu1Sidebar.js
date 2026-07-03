@@ -21,7 +21,11 @@ export default [
         link: `${commonPath}/VUE3初始化流程.md`,
       },
       {
-        text: "视频笔记",
+        text: "vue源码中hasChanged函数",
+        link: `${commonPath}/vue源码中haschange函数.md`,
+      },
+      {
+        text: "视频笔记（性能优化/vuex等）",
         link: `${commonPath}/视频笔记.md`,
       },
     ],
@@ -31,10 +35,6 @@ export default [
     collapsible: true,
     collapsed: false,
     items: [
-      // {
-      //   text: "JSX规则",
-      //   link: `${commonPath}/jsx规则.md`,
-      // },
       {
         text: "react组件",
         link: `${commonPath}/react组件.md`,
@@ -43,7 +43,6 @@ export default [
         text: "ReactRouter6快速上手",
         link: `${commonPath}/ReactRouter6快速上手.md`,
       },
-
       {
         text: "react笔记",
         link: `${commonPath}/react笔记.md`,
@@ -72,25 +71,35 @@ export default [
         link: `${commonPath}/关于输入框非空的判断.md`,
       },
       {
-        text: "babel为什么需要bable-pollyfill",
+        text: "Promise易错点",
+        link: `${commonPath}/Promise易错点.md`,
+      },
+      {
+        text: "Ajax 与跨域",
+        link: `${commonPath}/Ajax.md`,
+      },
+      {
+        text: "babel为什么需要babel-polyfill",
         link: `${commonPath}/babel为什么需要bable-pollyfill.md`,
       },
       {
-        text: "40+ Vue3 实用工具分享  技术胖整理",
+        text: "TIPS：npx vs npm",
+        link: `${commonPath}/TIPS.md`,
+      },
+      {
+        text: "40+ Vue3 实用工具分享",
         link: `${commonPath}/40+ Vue3 实用工具分享  技术胖整理.md`,
       },
       {
         text: "GitHooks使用",
         link: `${commonPath}/GitHooks.md`,
       },
-
       {
         text: "开发CLI",
         link: `${commonPath}/开发CLI.md`,
       },
     ],
   },
-
   {
     text: "Webpack系列",
     collapsible: true,
@@ -99,6 +108,28 @@ export default [
       {
         text: "尚硅谷笔记",
         link: `${commonPath}/尚硅谷笔记.md`,
+      },
+    ],
+  },
+  {
+    text: "Android / Flutter",
+    collapsible: true,
+    collapsed: true,
+    items: [
+      {
+        text: "热更新classloader",
+        link: "/menu3/a.md",
+      },
+    ],
+  },
+  {
+    text: "随笔",
+    collapsible: true,
+    collapsed: true,
+    items: [
+      {
+        text: "骏马面前无沟壑，怂人面前全是坎",
+        link: "/menu2/a.md",
       },
     ],
   },
