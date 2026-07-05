@@ -22,4 +22,12 @@ export default [
       { text: "自注意力机制", link: `${commonPath}/self-attention.md` },
     ],
   },
+  {
+    text: "应用技术栈",
+    collapsible: true,
+    collapsed: false,
+    items: [
+      { text: "大模型三件套：FC、MCP、Skill", link: `${commonPath}/fc-mcp-skill.md` },
+    ],
+  },
 ];
