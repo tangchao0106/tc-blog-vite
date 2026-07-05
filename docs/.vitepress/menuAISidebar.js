@@ -13,4 +13,13 @@ export default [
       { text: "Token经济学", link: `${commonPath}/token-economics.md` },
     ],
   },
+  {
+    text: "Transformer核心架构",
+    collapsible: true,
+    collapsed: false,
+    items: [
+      { text: "Transformer整体架构", link: `${commonPath}/transformer-architecture.md` },
+      { text: "自注意力机制", link: `${commonPath}/self-attention.md` },
+    ],
+  },
 ];
