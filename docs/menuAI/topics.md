@@ -16,8 +16,8 @@
 
 - [x] 5. Transformer整体架构：一张图看懂大模型的"骨架" — Encoder-Decoder vs Decoder-Only
 - [x] 6. 自注意力机制：如何量化词与词之间的"关系" — Q/K/V/注意力分数
-- [ ] 7. 多头注意力：从"一个角度"到"多个角度" — 多头拆分/MLA创新
-- [ ] 8. 位置编码进化史：从绝对位置到RoPE和ALiBi — RoPE旋转编码/ALiBi惩罚项
+- [x] 7. 多头注意力：从"一个角度"到"多个角度" — 多头拆分/MLA创新
+- [x] 8. 位置编码进化史：从绝对位置到RoPE和ALiBi — RoPE旋转编码/ALiBi惩罚项
 - [ ] 9. GPT vs BERT：为什么Decoder-Only成为主流 — 架构差异/统一框架趋势
 
 ## 第三部分：训练全流程
