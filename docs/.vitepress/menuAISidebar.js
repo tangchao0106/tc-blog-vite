@@ -22,6 +22,7 @@ export default [
       { text: "自注意力机制", link: `${commonPath}/self-attention.md` },
       { text: "多头注意力", link: `${commonPath}/multi-head-attention.md` },
       { text: "位置编码进化史", link: `${commonPath}/positional-encoding.md` },
+      { text: "Transformer高频面试题", link: `${commonPath}/transformer-interview.md` },
     ],
   },
   {
