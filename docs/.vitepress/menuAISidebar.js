@@ -26,6 +26,15 @@ export default [
     ],
   },
   {
+    text: "训练全流程",
+    collapsible: true,
+    collapsed: false,
+    items: [
+      { text: "预训练：大模型的通识教育", link: `${commonPath}/pretraining.md` },
+      { text: "监督微调（SFT）：从通才到专才", link: `${commonPath}/sft.md` },
+    ],
+  },
+  {
     text: "应用技术栈",
     collapsible: true,
     collapsed: false,
