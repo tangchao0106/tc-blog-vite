@@ -32,6 +32,8 @@ export default [
     items: [
       { text: "预训练：大模型的通识教育", link: `${commonPath}/pretraining.md` },
       { text: "监督微调（SFT）：从通才到专才", link: `${commonPath}/sft.md` },
+      { text: "RLHF：让大模型学会做人", link: `${commonPath}/rlhf.md` },
+      { text: "损失函数与梯度：错题本和指路标", link: `${commonPath}/loss-function-and-gradient.md` },
     ],
   },
   {
