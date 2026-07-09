@@ -34,6 +34,7 @@ export default [
       { text: "监督微调（SFT）：从通才到专才", link: `${commonPath}/sft.md` },
       { text: "RLHF：让大模型学会做人", link: `${commonPath}/rlhf.md` },
       { text: "损失函数与梯度：错题本和指路标", link: `${commonPath}/loss-function-and-gradient.md` },
+      { text: "动态学习率：自适应油门", link: `${commonPath}/dynamic-learning-rate.md` },
     ],
   },
   {
@@ -42,6 +43,14 @@ export default [
     collapsed: false,
     items: [
       { text: "大模型三件套：FC、MCP、Skill", link: `${commonPath}/fc-mcp-skill.md` },
+    ],
+  },
+  {
+    text: "模型优化与加速",
+    collapsible: true,
+    collapsed: false,
+    items: [
+      { text: "KV Cache：记忆复用术", link: `${commonPath}/kv-cache.md` },
     ],
   },
 ];
