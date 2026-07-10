@@ -51,6 +51,8 @@ export default [
     collapsed: false,
     items: [
       { text: "KV Cache：记忆复用术", link: `${commonPath}/kv-cache.md` },
+      { text: "解码策略：如何选词决定输出质量", link: `${commonPath}/decoding-strategies.md` },
+      { text: "MTP：一次猜多个词的新范式", link: `${commonPath}/multi-token-prediction.md` },
     ],
   },
 ];
