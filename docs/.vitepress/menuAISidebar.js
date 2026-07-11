@@ -55,6 +55,15 @@ export default [
       { text: "MTP：一次猜多个词的新范式", link: `${commonPath}/multi-token-prediction.md` },
       { text: "混合注意力：精读与概览策略", link: `${commonPath}/hybrid-attention.md` },
       { text: "模型量化与剪枝：让大模型瘦身", link: `${commonPath}/model-quantization-pruning.md` },
+      { text: "知识蒸馏：让老师教出好学生", link: `${commonPath}/knowledge-distillation.md` },
+    ],
+  },
+  {
+    text: "分布式训练",
+    collapsible: true,
+    collapsed: false,
+    items: [
+      { text: "分布式训练全景：三种并行", link: `${commonPath}/distributed-training.md` },
     ],
   },
 ];
