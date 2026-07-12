@@ -64,6 +64,8 @@ export default [
     collapsed: false,
     items: [
       { text: "分布式训练全景：三种并行", link: `${commonPath}/distributed-training.md` },
+      { text: "MoE架构：让大模型按需激活", link: `${commonPath}/moe-architecture.md` },
+      { text: "DeepSeek-V3的分布式实践", link: `${commonPath}/deepseek-v3-distributed.md` },
     ],
   },
 ];
