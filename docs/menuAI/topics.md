@@ -42,11 +42,11 @@
 - [x] 21. 分布式训练全景：数据并行、模型并行、流水线并行 — 三种并行本质
 - [x] 22. MoE架构：让大模型"按需激活" — 稀疏激活/专家路由/负载均衡
 - [x] 23. DeepSeek-V3的分布式实践 — 多层次并行/DualPipe/AlltoAll通信
-- [ ] 24. Scaling Laws：大模型的"生长公式" — 幂律关系/最优分配/局限与争议
+- [x] 24. Scaling Laws：大模型的"生长公式" — 幂律关系/最优分配/局限与争议
 
 ## 第六部分：推理与部署
 
-- [ ] 25. GPU vs CPU：为什么大模型"吃"显卡 — 并行架构/Tensor Core/显存带宽
+- [x] 25. GPU vs CPU：为什么大模型"吃"显卡 — 并行架构/Tensor Core/显存带宽
 - [ ] 26. 大模型推理框架对比：vLLM、SGLang、Transformers — 设计哲学/选型
 - [ ] 27. 推理框架选型指南：如何选择适合自己的"引擎" — KTransformers/Unsloth
 - [ ] 28. KV Cache优化：从PagedAttention到MLA — 显存管理/缓存压缩

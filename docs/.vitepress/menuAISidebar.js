@@ -66,6 +66,8 @@ export default [
       { text: "分布式训练全景：三种并行", link: `${commonPath}/distributed-training.md` },
       { text: "MoE架构：让大模型按需激活", link: `${commonPath}/moe-architecture.md` },
       { text: "DeepSeek-V3的分布式实践", link: `${commonPath}/deepseek-v3-distributed.md` },
+      { text: "Scaling Laws：大模型的u201c生长公式u201d", link: `${commonPath}/scaling-laws` },
+      { text: "GPU vs CPU：为什么大模型u201c吃u201d显卡", link: `${commonPath}/gpu-vs-cpu` },
     ],
   },
 ];
