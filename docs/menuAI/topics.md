@@ -47,8 +47,8 @@
 ## 第六部分：推理与部署
 
 - [x] 25. GPU vs CPU：为什么大模型"吃"显卡 — 并行架构/Tensor Core/显存带宽
-- [ ] 26. 大模型推理框架对比：vLLM、SGLang、Transformers — 设计哲学/选型
-- [ ] 27. 推理框架选型指南：如何选择适合自己的"引擎" — KTransformers/Unsloth
+- [x] 26. 大模型推理框架对比：vLLM、SGLang、Transformers — 设计哲学/选型
+- [x] 27. 推理框架选型指南：如何选择适合自己的"引擎" — KTransformers/Unsloth
 - [ ] 28. KV Cache优化：从PagedAttention到MLA — 显存管理/缓存压缩
 
 ## 第七部分：应用技术栈

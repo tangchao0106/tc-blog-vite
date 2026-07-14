@@ -70,4 +70,13 @@ export default [
       { text: "GPU vs CPU：为什么大模型u201c吃u201d显卡", link: `${commonPath}/gpu-vs-cpu` },
     ],
   },
+  {
+    text: "推理与部署",
+    collapsible: true,
+    collapsed: false,
+    items: [
+      { text: "大模型推理框架对比：vLLM、SGLang、Transformers", link: `${commonPath}/inference-frameworks-comparison.md` },
+      { text: "推理框架选型指南：如何选择适合自己的引擎", link: `${commonPath}/inference-framework-selection.md` },
+    ],
+  },
 ];
