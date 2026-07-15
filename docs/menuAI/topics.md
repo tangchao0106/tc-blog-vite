@@ -49,12 +49,12 @@
 - [x] 25. GPU vs CPU：为什么大模型"吃"显卡 — 并行架构/Tensor Core/显存带宽
 - [x] 26. 大模型推理框架对比：vLLM、SGLang、Transformers — 设计哲学/选型
 - [x] 27. 推理框架选型指南：如何选择适合自己的"引擎" — KTransformers/Unsloth
-- [ ] 28. KV Cache优化：从PagedAttention到MLA — 显存管理/缓存压缩
+- [x] 28. KV Cache优化：从PagedAttention到MLA — 显存管理/缓存压缩
 
 ## 第七部分：应用技术栈
 
 - [x] 29. 大模型"三件套"：Function Calling、MCP、Skill 一文讲透 — FC/MCP/Skill 面试口吻
-- [ ] 30. RAG：让大模型"查资料"再回答 — 召回-重排-生成/向量数据库/相似度
+- [x] 30. RAG：让大模型"查资料"再回答 — 召回-重排-生成/向量数据库/相似度
 - [ ] 31. Agent智能体：从"聊天"到"干活" — Function Calling/MCP协议/多智能体
 - [ ] 32. OpenClaw Skills：让大模型"会使用工具" — 技能生态/编写规范
 - [ ] 33. 数据回流：大模型的"自我进化"闭环 — 生产数据回收/反哺微调

@@ -43,6 +43,7 @@ export default [
     collapsed: false,
     items: [
       { text: "大模型三件套：FC、MCP、Skill", link: `${commonPath}/fc-mcp-skill.md` },
+      { text: "RAG：让大模型查资料再回答", link: `${commonPath}/rag-retrieval-augmented-generation.md` },
     ],
   },
   {
@@ -77,6 +78,7 @@ export default [
     items: [
       { text: "大模型推理框架对比：vLLM、SGLang、Transformers", link: `${commonPath}/inference-frameworks-comparison.md` },
       { text: "推理框架选型指南：如何选择适合自己的引擎", link: `${commonPath}/inference-framework-selection.md` },
+      { text: "KV Cache优化：从PagedAttention到MLA", link: `${commonPath}/kv-cache-optimization.md` },
     ],
   },
 ];
