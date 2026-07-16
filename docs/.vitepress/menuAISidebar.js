@@ -44,6 +44,8 @@ export default [
     items: [
       { text: "大模型三件套：FC、MCP、Skill", link: `${commonPath}/fc-mcp-skill.md` },
       { text: "RAG：让大模型查资料再回答", link: `${commonPath}/rag-retrieval-augmented-generation.md` },
+      { text: "Agent智能体：从聊天到干活", link: `${commonPath}/agent-intelligent-body.md` },
+      { text: "OpenClaw Skills：让大模型会使用工具", link: `${commonPath}/openclaw-skills.md` },
     ],
   },
   {

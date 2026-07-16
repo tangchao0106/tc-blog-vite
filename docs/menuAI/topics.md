@@ -55,8 +55,8 @@
 
 - [x] 29. 大模型"三件套"：Function Calling、MCP、Skill 一文讲透 — FC/MCP/Skill 面试口吻
 - [x] 30. RAG：让大模型"查资料"再回答 — 召回-重排-生成/向量数据库/相似度
-- [ ] 31. Agent智能体：从"聊天"到"干活" — Function Calling/MCP协议/多智能体
-- [ ] 32. OpenClaw Skills：让大模型"会使用工具" — 技能生态/编写规范
+- [x] 31. Agent智能体：从"聊天"到"干活" — Function Calling/MCP协议/多智能体
+- [x] 32. OpenClaw Skills：让大模型"会使用工具" — 技能生态/编写规范
 - [ ] 33. 数据回流：大模型的"自我进化"闭环 — 生产数据回收/反哺微调
 
 ## 第八部分：评估与安全
