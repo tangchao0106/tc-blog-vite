@@ -46,6 +46,7 @@ export default [
       { text: "RAG：让大模型查资料再回答", link: `${commonPath}/rag-retrieval-augmented-generation.md` },
       { text: "Agent智能体：从聊天到干活", link: `${commonPath}/agent-intelligent-body.md` },
       { text: "OpenClaw Skills：让大模型会使用工具", link: `${commonPath}/openclaw-skills.md` },
+      { text: "数据回流：大模型的自我进化闭环", link: `${commonPath}/data-feedback-loop.md` },
     ],
   },
   {
@@ -81,6 +82,16 @@ export default [
       { text: "大模型推理框架对比：vLLM、SGLang、Transformers", link: `${commonPath}/inference-frameworks-comparison.md` },
       { text: "推理框架选型指南：如何选择适合自己的引擎", link: `${commonPath}/inference-framework-selection.md` },
       { text: "KV Cache优化：从PagedAttention到MLA", link: `${commonPath}/kv-cache-optimization.md` },
+    ],
+  },
+  {
+    text: "评估与安全",
+    collapsible: true,
+    collapsed: false,
+    items: [
+      { text: "评估指标全解：BLEU、ROUGE、BERTScore", link: `${commonPath}/evaluation-metrics.md` },
+      { text: "避免过拟合：让模型学得会不死记硬背", link: `${commonPath}/avoid-overfitting.md` },
+      { text: "幻觉问题：大模型为什么胡说八道", link: `${commonPath}/hallucination-problem.md` },
     ],
   },
 ];
