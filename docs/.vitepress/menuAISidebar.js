@@ -85,6 +85,15 @@ export default [
     ],
   },
   {
+    text: "多模态与前沿",
+    collapsible: true,
+    collapsed: false,
+    items: [
+      { text: "多模态大模型：从能读到能看能听", link: `${commonPath}/multimodal-llm.md` },
+      { text: "扩散语言模型：打破自回归的新范式", link: `${commonPath}/diffusion-language-model.md` },
+    ],
+  },
+  {
     text: "评估与安全",
     collapsible: true,
     collapsed: false,
