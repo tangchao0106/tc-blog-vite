@@ -91,6 +91,15 @@ export default [
     items: [
       { text: "多模态大模型：从能读到能看能听", link: `${commonPath}/multimodal-llm.md` },
       { text: "扩散语言模型：打破自回归的新范式", link: `${commonPath}/diffusion-language-model.md` },
+      { text: "推理模型：让大模型多想一步", link: `${commonPath}/reasoning-model.md` },
+    ],
+  },
+  {
+    text: "API与工具生态",
+    collapsible: true,
+    collapsed: false,
+    items: [
+      { text: "Chat Completions vs Responses API：两代同堂", link: `${commonPath}/chat-completions-vs-responses-api.md` },
     ],
   },
   {
