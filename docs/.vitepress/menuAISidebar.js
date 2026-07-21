@@ -100,6 +100,7 @@ export default [
     collapsed: false,
     items: [
       { text: "Chat Completions vs Responses API：两代同堂", link: `${commonPath}/chat-completions-vs-responses-api.md` },
+      { text: "插件市场：AI编程工具的应用商店体系", link: `${commonPath}/plugin-marketplace.md` },
     ],
   },
   {
