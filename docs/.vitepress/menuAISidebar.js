@@ -113,4 +113,33 @@ export default [
       { text: "幻觉问题：大模型为什么胡说八道", link: `${commonPath}/hallucination-problem.md` },
     ],
   },
+  {
+    text: "Prompt Engineering 与上下文工程",
+    collapsible: true,
+    collapsed: false,
+    items: [
+      { text: "Prompt Engineering 基础：如何跟大模型好好说话", link: `${commonPath}/prompt-engineering-basics.md` },
+      { text: "上下文工程：Prompt 的进阶版", link: `${commonPath}/context-engineering.md` },
+      { text: "结构化输出：让大模型吐出格式化数据", link: `${commonPath}/structured-output.md` },
+    ],
+  },
+  {
+    text: "前端 AI 开发实战",
+    collapsible: true,
+    collapsed: false,
+    items: [
+      { text: "流式输出：如何在前端接住大模型的回答", link: `${commonPath}/streaming-output.md` },
+      { text: "浏览器端推理：WebLLM 与 transformers.js", link: `${commonPath}/browser-side-inference.md` },
+      { text: "AI 编程助手原理：Copilot/Cursor 怎么猜你的代码", link: `${commonPath}/ai-coding-assistant.md` },
+    ],
+  },
+  {
+    text: "微调与定制化",
+    collapsible: true,
+    collapsed: false,
+    items: [
+      { text: "LoRA/QLoRA：普通人也能微调大模型", link: `${commonPath}/lora-qlora.md` },
+      { text: "数据准备与合成数据：喂给模型什么食", link: `${commonPath}/data-preparation-synthetic-data.md` },
+    ],
+  },
 ];
