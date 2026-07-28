@@ -140,6 +140,15 @@ export default [
     items: [
       { text: "LoRA/QLoRA：普通人也能微调大模型", link: `${commonPath}/lora-qlora.md` },
       { text: "数据准备与合成数据：喂给模型什么食", link: `${commonPath}/data-preparation-synthetic-data.md` },
+      { text: "模型格式转换：GGUF/SafeTensors/ONNX", link: `${commonPath}/model-format-conversion.md` },
+    ],
+  },
+  {
+    text: "RAG 进阶",
+    collapsible: true,
+    collapsed: false,
+    items: [
+      { text: "向量数据库选型：Milvus/Pinecone/Chroma", link: `${commonPath}/vector-database-selection.md` },
     ],
   },
 ];

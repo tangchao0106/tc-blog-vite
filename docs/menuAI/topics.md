@@ -94,11 +94,11 @@
 
 - [x] 48. LoRA/QLoRA：普通人也能"微调"大模型 — 参数高效微调/低秩适配/量化微调
 - [x] 49. 数据准备与合成数据：喂给模型什么"食" — 指令构造/数据清洗/合成数据生成
-- [ ] 50. 模型格式转换：GGUF/SafeTensors/ONNX — 格式差异/量化导出/跨平台部署
+- [x] 50. 模型格式转换：GGUF/SafeTensors/ONNX — 格式差异/量化导出/跨平台部署
 
 ## 第十四部分：RAG 进阶
 
-- [ ] 51. 向量数据库选型：Milvus/Pinecone/Chroma — 索引算法/相似度搜索/工程实践
+- [x] 51. 向量数据库选型：Milvus/Pinecone/Chroma — 索引算法/相似度搜索/工程实践
 - [ ] 52. Embedding 模型详解：从 text-embedding 到 BGE — 编码原理/维度选择/多语言
 - [ ] 53. Reranking 重排序：RAG 的"二次筛选" — 交叉编码器/多路召回/融合策略
 
