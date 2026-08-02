@@ -149,6 +149,46 @@ export default [
     collapsed: false,
     items: [
       { text: "向量数据库选型：Milvus/Pinecone/Chroma", link: `${commonPath}/vector-database-selection.md` },
+      { text: "Embedding 模型详解：从 text-embedding 到 BGE", link: `${commonPath}/embedding-models.md` },
+      { text: "Reranking 重排序：RAG 的二次筛选", link: `${commonPath}/reranking.md` },
+    ],
+  },
+  {
+    text: "AI 安全与对齐",
+    collapsible: true,
+    collapsed: false,
+    items: [
+      { text: "提示注入攻击：大模型的社会工程学", link: `${commonPath}/prompt-injection.md` },
+      { text: "红队测试：如何攻击自己的模型", link: `${commonPath}/red-teaming.md` },
+      { text: "AI 伦理与偏见：大模型的价值观问题", link: `${commonPath}/ai-ethics-and-bias.md` },
+    ],
+  },
+  {
+    text: "多模态生成",
+    collapsible: true,
+    collapsed: false,
+    items: [
+      { text: "图像生成原理：Diffusion 模型怎么画图", link: `${commonPath}/image-generation-diffusion.md` },
+      { text: "Stable Diffusion 实战：从文生图到图生图", link: `${commonPath}/stable-diffusion-practical.md` },
+      { text: "语音模型：TTS 与 ASR", link: `${commonPath}/speech-models-tts-asr.md` },
+    ],
+  },
+  {
+    text: "模型生态与选型",
+    collapsible: true,
+    collapsed: false,
+    items: [
+      { text: "开源 vs 闭源大模型：能力/成本/隐私", link: `${commonPath}/open-source-vs-closed-source-llm.md` },
+      { text: "小语言模型（SLM）：小而美", link: `${commonPath}/small-language-models.md` },
+      { text: "模型评估实战：从 BLEU 到 LLM-as-Judge", link: `${commonPath}/model-evaluation-practice.md` },
+    ],
+  },
+  {
+    text: "AI 产品与工程化",
+    collapsible: true,
+    collapsed: false,
+    items: [
+      { text: "AI 产品设计：如何设计不确定的产品", link: `${commonPath}/ai-product-design.md` },
     ],
   },
 ];

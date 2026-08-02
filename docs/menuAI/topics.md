@@ -99,30 +99,30 @@
 ## 第十四部分：RAG 进阶
 
 - [x] 51. 向量数据库选型：Milvus/Pinecone/Chroma — 索引算法/相似度搜索/工程实践
-- [ ] 52. Embedding 模型详解：从 text-embedding 到 BGE — 编码原理/维度选择/多语言
-- [ ] 53. Reranking 重排序：RAG 的"二次筛选" — 交叉编码器/多路召回/融合策略
+- [x] 52. Embedding 模型详解：从 text-embedding 到 BGE — 编码原理/维度选择/多语言
+- [x] 53. Reranking 重排序：RAG 的"二次筛选" — 交叉编码器/多路召回/融合策略
 
 ## 第十五部分：AI 安全与对齐
 
-- [ ] 54. 提示注入攻击：大模型的"社会工程学" — Prompt Injection/越狱/防御策略
-- [ ] 55. 红队测试：如何"攻击"自己的模型 — Red Teaming/对抗样本/边界测试
-- [ ] 56. AI 伦理与偏见：大模型的"价值观"问题 — 公平性/偏见检测/去偏方法
+- [x] 54. 提示注入攻击：大模型的"社会工程学" — Prompt Injection/越狱/防御策略
+- [x] 55. 红队测试：如何"攻击"自己的模型 — Red Teaming/对抗样本/边界测试
+- [x] 56. AI 伦理与偏见：大模型的"价值观"问题 — 公平性/偏见检测/去偏方法
 
 ## 第十六部分：多模态生成
 
-- [ ] 57. 图像生成原理：Diffusion 模型怎么"画图" — 去噪过程/潜空间/条件控制
-- [ ] 58. Stable Diffusion 实战：从文生图到图生图 — ControlNet/LoRA/精确控制
-- [ ] 59. 语音模型：TTS 与 ASR — Whisper/语音合成/实时语音交互
+- [x] 57. 图像生成原理：Diffusion 模型怎么"画图" — 去噪过程/潜空间/条件控制
+- [x] 58. Stable Diffusion 实战：从文生图到图生图 — ControlNet/LoRA/精确控制
+- [x] 59. 语音模型：TTS 与 ASR — Whisper/语音合成/实时语音交互
 
 ## 第十七部分：模型生态与选型
 
-- [ ] 60. 开源 vs 闭源大模型：Llama/Qwen/DeepSeek vs GPT/Claude/Gemini — 能力/成本/隐私
-- [ ] 61. 小语言模型（SLM）：Phi/Gemma 的"小而美" — 端侧部署/性能权衡/应用场景
-- [ ] 62. 模型评估实战：从 BLEU 到 LLM-as-Judge — 人工评估/A/B测试/自动评估
+- [x] 60. 开源 vs 闭源大模型：Llama/Qwen/DeepSeek vs GPT/Claude/Gemini — 能力/成本/隐私
+- [x] 61. 小语言模型（SLM）：Phi/Gemma 的"小而美" — 端侧部署/性能权衡/应用场景
+- [x] 62. 模型评估实战：从 BLEU 到 LLM-as-Judge — 人工评估/A/B测试/自动评估
 
 ## 第十八部分：AI 产品与工程化
 
-- [ ] 63. AI 产品设计：如何设计"不确定"的产品 — 非确定性/置信度展示/人在回路
+- [x] 63. AI 产品设计：如何设计"不确定"的产品 — 非确定性/置信度展示/人在回路
 - [ ] 64. 成本优化：大模型应用的"省钱经" — 缓存/模型路由/Prompt 压缩
 - [ ] 65. 从 Demo 到生产：AI 工程化闭环 — 测试/监控/灰度/回滚
 
