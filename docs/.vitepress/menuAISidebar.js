@@ -189,6 +189,8 @@ export default [
     collapsed: false,
     items: [
       { text: "AI 产品设计：如何设计不确定的产品", link: `${commonPath}/ai-product-design.md` },
+      { text: "成本优化：大模型应用的省钱经", link: `${commonPath}/cost-optimization.md` },
+      { text: "从 Demo 到生产：AI 工程化闭环", link: `${commonPath}/demo-to-production.md` },
     ],
   },
 ];
