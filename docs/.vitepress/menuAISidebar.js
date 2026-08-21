@@ -2,6 +2,14 @@ const commonPath = "/menuAI";
 
 export default [
   {
+    text: "📖 连载复盘",
+    collapsible: false,
+    collapsed: false,
+    items: [
+      { text: "AI 技术笔记连载·复盘索引", link: `${commonPath}/recap.md` },
+    ],
+  },
+  {
     text: "基础概念",
     collapsible: true,
     collapsed: false,
@@ -191,6 +199,27 @@ export default [
       { text: "AI 产品设计：如何设计不确定的产品", link: `${commonPath}/ai-product-design.md` },
       { text: "成本优化：大模型应用的省钱经", link: `${commonPath}/cost-optimization.md` },
       { text: "从 Demo 到生产：AI 工程化闭环", link: `${commonPath}/demo-to-production.md` },
+    ],
+  },
+  {
+    text: "AI 架构与系统设计",
+    collapsible: true,
+    collapsed: false,
+    items: [
+      { text: "多智能体系统架构：从单兵作战到团队协作", link: `${commonPath}/multi-agent-systems.md` },
+      { text: "LLM 应用架构模式：RAG、Agent、Workflow 怎么选", link: `${commonPath}/llm-app-architecture-patterns.md` },
+    ],
+  },
+  {
+    text: "大模型面试题实战",
+    collapsible: true,
+    collapsed: false,
+    items: [
+      { text: "面试题(一)：Transformer与注意力机制", link: `${commonPath}/interview-transformer-attention.md` },
+      { text: "面试题(二)：训练vs推理与显卡选型", link: `${commonPath}/interview-train-vs-inference.md` },
+      { text: "面试题(三)：Function Call工具调用", link: `${commonPath}/interview-function-call.md` },
+      { text: "面试题(四)：自动驾驶AI拓展", link: `${commonPath}/interview-autonomous-driving.md` },
+      { text: "面试题(五)：基础概念四连", link: `${commonPath}/interview-basic-concepts.md` },
     ],
   },
 ];
