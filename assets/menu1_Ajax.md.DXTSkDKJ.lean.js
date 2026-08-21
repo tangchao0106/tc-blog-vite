@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a}from"./chunks/framework.CSK6mTG2.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"menu1/Ajax.md","filePath":"menu1/Ajax.md"}'),n={name:"menu1/Ajax.md"};function r(o,s,c,m,p,_){return t(),a("div")}const f=e(n,[["render",r]]);export{i as __pageData,f as default};
