@@ -139,6 +139,11 @@
 - [x] 71. 面试题(四)：自动驾驶AI拓展 — TOPS坑/端到端vs流水线
 - [x] 72. 面试题(五)：基础概念四连 — temperature/topP/penalty/LoRA/RAG/幻觉
 
+## 延伸篇（路线图完成后新增）
+
+- [x] 73. FlashAttention：让注意力计算"省显存又提速" — 分块/在线softmax/重计算/SRAM vs HBM
+- [x] 74. LLMOps：大模型应用的可观测性与运维 — 日志/追踪/指标/成本/质量监控/Prompt版本化
+
 ---
 
 ## ✅ 已完成

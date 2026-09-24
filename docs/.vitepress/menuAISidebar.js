@@ -222,4 +222,13 @@ export default [
       { text: "面试题(五)：基础概念四连", link: `${commonPath}/interview-basic-concepts.md` },
     ],
   },
+  {
+    text: "延伸篇",
+    collapsible: true,
+    collapsed: false,
+    items: [
+      { text: "FlashAttention：让注意力省显存又提速", link: `${commonPath}/flash-attention.md` },
+      { text: "LLMOps：大模型应用的可观测性与运维", link: `${commonPath}/llmops-observability.md` },
+    ],
+  },
 ];
