@@ -229,6 +229,8 @@ export default [
     items: [
       { text: "FlashAttention：让注意力省显存又提速", link: `${commonPath}/flash-attention.md` },
       { text: "LLMOps：大模型应用的可观测性与运维", link: `${commonPath}/llmops-observability.md` },
+      { text: "提示缓存（Prompt Caching）：省下真金白银", link: `${commonPath}/prompt-caching.md` },
+      { text: "长上下文 vs RAG：塞全文还是查资料", link: `${commonPath}/long-context-vs-rag.md` },
     ],
   },
 ];
